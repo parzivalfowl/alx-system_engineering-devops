@@ -1,2 +1,2 @@
 #!/bin/bash
-echo export NUM={0..9}.{0..9}{0..9}
+echo $(printf '%.2f' $NUM)
