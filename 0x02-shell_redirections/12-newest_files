@@ -1,2 +1,2 @@
 #!/bin/bash
-cat head -n 10 |tr " " $"\n"
+ls -lt|head
